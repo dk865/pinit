@@ -1,0 +1,36 @@
+{
+	"name": "Pin It!",
+	"version": "1.0.0.2",
+	"description": "Shoot a thumbtack at a Fruit, either an Orange or Strawberry.",
+	"id": "com.dk865.pinit",
+	"unique-id": "uyax19y0y2er",
+	"viewport-width": 854,
+	"viewport-height": 480,
+	"author": "dk865",
+	"email": "dkolb2056@icloud.com",
+	"website": "https://sites.google.com/view/rust865/",
+	"orientations": "landscape",
+	"c2version": "244",
+	"c3version": "r397",
+	"ife": true,
+	"used-plugins": [
+		"Sprite",
+		"Touch",
+		"Particles",
+		"TiledBg",
+		"Text",
+		"Dictionary",
+		"LocalStorage",
+		"Keyboard"
+	],
+	"used-behaviors": [
+		"Bullet",
+		"Pin",
+		"Fade",
+		"Sin",
+		"Physics",
+		"wrap",
+		"EightDir",
+		"Flash"
+	]
+}
