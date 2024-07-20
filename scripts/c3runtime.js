@@ -4822,8 +4822,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.LocalStorage,
 		C3.Plugins.Keyboard,
 		C3.Behaviors.Flash,
-		C3.Plugins.System.Cnds.EveryTick,
-		C3.Behaviors.EightDir.Acts.SimulateControl,
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Behaviors.Physics.Acts.SetWorldGravity,
 		C3.Plugins.Particles.Acts.Destroy,
@@ -5092,9 +5090,10 @@ self.C3_ExpressionFuncs = [
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();
 		},
-		() => 95,
+		() => 111,
 		() => 0.1,
 		() => -187,
+		() => 95,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const v1 = p._GetNode(1).GetVar();
